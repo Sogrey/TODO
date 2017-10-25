@@ -5,7 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/TODO.iml" filepath="$PROJECT_DIR$/TODO.iml" />
       <module fileurl="file://$PROJECT_DIR$/jtodo/jtodo.iml" filepath="$PROJECT_DIR$/jtodo/jtodo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ktodo/ktodo.iml" filepath="$PROJECT_DIR$/ktodo/ktodo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib_SogreyFrame/lib_SogreyFrame.iml" filepath="$PROJECT_DIR$/lib_SogreyFrame/lib_SogreyFrame.iml" />
+      <module fileurl="file://E:\workspace\AS\github\TODO\lib_SogreyFrame\lib_SogreyFrame.iml" filepath="E:\workspace\AS\github\TODO\lib_SogreyFrame\lib_SogreyFrame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_SogreyFramework/lib_SogreyFramework.iml" filepath="$PROJECT_DIR$/lib_SogreyFramework/lib_SogreyFramework.iml" />
     </modules>
   </component>
 </project>

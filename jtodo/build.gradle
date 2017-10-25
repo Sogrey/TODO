@@ -40,7 +40,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
     //https://github.com/armcha/Space-Navigation-View
     compile 'com.github.armcha:SpaceNavigationView:1.6.0'
-    implementation project(':lib_SogreyFrame')
+    implementation project(':lib_SogreyFramework')
     //https://github.com/JakeWharton/butterknife
     compile 'com.jakewharton:butterknife:8.8.1'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'

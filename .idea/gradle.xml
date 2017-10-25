@@ -10,7 +10,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/jtodo" />
             <option value="$PROJECT_DIR$/ktodo" />
-            <option value="$PROJECT_DIR$/lib_SogreyFrame" />
+            <option value="$PROJECT_DIR$/lib_SogreyFramework" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
