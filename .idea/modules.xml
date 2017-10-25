@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/TODO.iml" filepath="$PROJECT_DIR$/TODO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jtodo/jtodo.iml" filepath="$PROJECT_DIR$/jtodo/jtodo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ktodo/ktodo.iml" filepath="$PROJECT_DIR$/ktodo/ktodo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib_SogreyFrame/lib_SogreyFrame.iml" filepath="$PROJECT_DIR$/lib_SogreyFrame/lib_SogreyFrame.iml" />
+    </modules>
+  </component>
+</project>

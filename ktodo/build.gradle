@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+//android 常用配置
+android {
+    //编译版本
+    compileSdkVersion 26
+    //构建工具版本
+    buildToolsVersion '26.0.2'
+    //默认配置
+    defaultConfig {
+        //应用包名
+        applicationId "org.sogrey.ktodo"
+        //最小版本号
+        minSdkVersion 14
+        //目标版本号
+        targetSdkVersion 26
+        //应用版本号
+        versionCode 1
+        //应用版本号名称
+        versionName "1.0"
+
+        //测试模块
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            //是否混淆
+            minifyEnabled true
+            //指定混淆文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            //是否混淆
+            minifyEnabled false
+            //指定混淆文件
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+
+//获取时间戳
+def getDate() {
+    def date = new Date()
+    def formattedDate = date.format('yyyyMMddHHmm')
+    return formattedDate
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation 'com.android.support:appcompat-v7:26.0.0-beta1'
+    implementation 'com.android.support:design:26.0.0-beta1'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:0.5'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:2.2.2'
+
+    //https://github.com/armcha/Space-Navigation-View
+    compile 'com.github.armcha:SpaceNavigationView:1.6.0'
+}
